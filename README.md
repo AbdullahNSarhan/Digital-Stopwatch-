@@ -27,15 +27,27 @@ The 8086 microprocessor is a 16-bit processor capable of handling data and instr
 3. 8255A Programmable Peripheral Interface (PPI):
  
 The 8255A is a versatile peripheral interface used to expand the I/O capabilities of the 8086 microprocessor. It provides 24 I/O lines that can be configured as input or output, and are used to interface with external components like the 7-segment displays. In this project, it is used to send control signals to the displays.
+
 5. Octal D-Type Transparent Latches with 3-State Outputs:
+
 These latches are used to store and control the data sent to the 7-segment displays. The latches allow the 8086 microprocessor to control the flow of data to the displays, ensuring that the correct digit is displayed at any given time.
-6. 7-Segment Displays (Common Anode, 1 Digit):
+
+7. 7-Segment Displays (Common Anode, 1 Digit):
+
 These are the visual output components used to display the digits 0-9. Two 1-digit, red, common anode 7-segment displays are used, each of which is controlled by signals from the 8255A PPI.
-7. Logic State and Switches:
+
+9. Logic State and Switches:
+
 The logic states and switches provide input and control signals for the system. Switches are used to toggle the system's state, while logic states manage the flow of information between the 8086 and external components.
-8. Power Source and Ground:
+
+11. Power Source and Ground:
+
 A stable power source is required to ensure proper operation of the system. The ground connection is used to complete the electrical circuit and provide a reference voltage for all components.
-9. Wires:
+
+13. Wires:
+
 Wires are used for interconnecting the various components of the system, ensuring that signals are properly routed between the 8086 microprocessor, 8255A PPI, and the 7-segment displays.
+
 III.	The Circuit:
+
 ![image](https://github.com/user-attachments/assets/3e7666bc-2a29-411a-82ae-47ea66db6aca)
